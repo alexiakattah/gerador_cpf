@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'BlackOps';
+  src: url('./assets/fonts/BlackOpsOne-Regular.ttf');
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('./assets/fonts/Roboto-Regular.ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto';
+  background-color: #1e1e1e;
+}
+body {
+  background-color: #1e1e1e;
+}
+.title {
+  font-family: 'BlackOps';
+}
+p,
+h1,
+label {
+  color: white;
+}
+.form {
+  display: -webkit-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  height: 100vh !important;
+}
+.input-radio {
+  padding-right: 1rem;
+}
+
+.btn-form {
+  width: 100%;
+  text-decoration: none;
+  background-color: #1bbc01;
+  color: white;
+  border-radius: 8px;
+  padding: 0.3rem 0;
+  margin-top: 1rem;
+  border: none;
+}
+.btn-form:hover {
+  background-color: #1b700e;
+}
+
+.input-result {
+  width: 100%;
+  background-color: #f0f0f0;
+  text-align: center;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  padding: 0.3rem 0;
+  margin-top: 1rem;
+}
